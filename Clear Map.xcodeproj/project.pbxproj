@@ -13,25 +13,8 @@
 		DD298D5317CBD5DA00406270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD298D5117CBD5DA00406270 /* InfoPlist.strings */; };
 		DD298D5517CBD5DA00406270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD298D5417CBD5DA00406270 /* main.m */; };
 		DD298D5917CBD5DA00406270 /* MBXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD298D5817CBD5DA00406270 /* MBXAppDelegate.m */; };
-		DD298D5C17CBD5DA00406270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD298D5A17CBD5DA00406270 /* Main.storyboard */; };
 		DD298D5F17CBD5DA00406270 /* MBXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD298D5E17CBD5DA00406270 /* MBXViewController.m */; };
-		DD298D6117CBD5DA00406270 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD298D6017CBD5DA00406270 /* Images.xcassets */; };
-		DD298D6817CBD5DA00406270 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD298D6717CBD5DA00406270 /* XCTest.framework */; };
-		DD298D6917CBD5DA00406270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD298D4817CBD5DA00406270 /* Foundation.framework */; };
-		DD298D6A17CBD5DA00406270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD298D4C17CBD5DA00406270 /* UIKit.framework */; };
-		DD298D7217CBD5DA00406270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD298D7017CBD5DA00406270 /* InfoPlist.strings */; };
-		DD298D7417CBD5DA00406270 /* Clear_MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD298D7317CBD5DA00406270 /* Clear_MapTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DD298D6B17CBD5DA00406270 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD298D3D17CBD5DA00406270 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD298D4417CBD5DA00406270;
-			remoteInfo = "Clear Map";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD298D4517CBD5DA00406270 /* Clear Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +27,9 @@
 		DD298D5617CBD5DA00406270 /* Clear Map-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clear Map-Prefix.pch"; sourceTree = "<group>"; };
 		DD298D5717CBD5DA00406270 /* MBXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXAppDelegate.h; sourceTree = "<group>"; };
 		DD298D5817CBD5DA00406270 /* MBXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXAppDelegate.m; sourceTree = "<group>"; };
-		DD298D5B17CBD5DA00406270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD298D5D17CBD5DA00406270 /* MBXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXViewController.h; sourceTree = "<group>"; };
 		DD298D5E17CBD5DA00406270 /* MBXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXViewController.m; sourceTree = "<group>"; };
-		DD298D6017CBD5DA00406270 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DD298D6617CBD5DA00406270 /* Clear MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clear MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD298D6717CBD5DA00406270 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DD298D6F17CBD5DA00406270 /* Clear MapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clear MapTests-Info.plist"; sourceTree = "<group>"; };
-		DD298D7117CBD5DA00406270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD298D7317CBD5DA00406270 /* Clear_MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clear_MapTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD298D6317CBD5DA00406270 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD298D6817CBD5DA00406270 /* XCTest.framework in Frameworks */,
-				DD298D6A17CBD5DA00406270 /* UIKit.framework in Frameworks */,
-				DD298D6917CBD5DA00406270 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				DD298D4E17CBD5DA00406270 /* Clear Map */,
-				DD298D6D17CBD5DA00406270 /* Clear MapTests */,
 				DD298D4717CBD5DA00406270 /* Frameworks */,
 				DD298D4617CBD5DA00406270 /* Products */,
 			);
@@ -93,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				DD298D4517CBD5DA00406270 /* Clear Map.app */,
-				DD298D6617CBD5DA00406270 /* Clear MapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +79,8 @@
 			children = (
 				DD298D5717CBD5DA00406270 /* MBXAppDelegate.h */,
 				DD298D5817CBD5DA00406270 /* MBXAppDelegate.m */,
-				DD298D5A17CBD5DA00406270 /* Main.storyboard */,
 				DD298D5D17CBD5DA00406270 /* MBXViewController.h */,
 				DD298D5E17CBD5DA00406270 /* MBXViewController.m */,
-				DD298D6017CBD5DA00406270 /* Images.xcassets */,
 				DD298D4F17CBD5DA00406270 /* Supporting Files */,
 			);
 			path = "Clear Map";
@@ -130,24 +93,6 @@
 				DD298D5117CBD5DA00406270 /* InfoPlist.strings */,
 				DD298D5417CBD5DA00406270 /* main.m */,
 				DD298D5617CBD5DA00406270 /* Clear Map-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DD298D6D17CBD5DA00406270 /* Clear MapTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD298D7317CBD5DA00406270 /* Clear_MapTests.m */,
-				DD298D6E17CBD5DA00406270 /* Supporting Files */,
-			);
-			path = "Clear MapTests";
-			sourceTree = "<group>";
-		};
-		DD298D6E17CBD5DA00406270 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD298D6F17CBD5DA00406270 /* Clear MapTests-Info.plist */,
-				DD298D7017CBD5DA00406270 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +117,6 @@
 			productReference = DD298D4517CBD5DA00406270 /* Clear Map.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD298D6517CBD5DA00406270 /* Clear MapTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD298D7A17CBD5DA00406270 /* Build configuration list for PBXNativeTarget "Clear MapTests" */;
-			buildPhases = (
-				DD298D6217CBD5DA00406270 /* Sources */,
-				DD298D6317CBD5DA00406270 /* Frameworks */,
-				DD298D6417CBD5DA00406270 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD298D6C17CBD5DA00406270 /* PBXTargetDependency */,
-			);
-			name = "Clear MapTests";
-			productName = "Clear MapTests";
-			productReference = DD298D6617CBD5DA00406270 /* Clear MapTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +126,6 @@
 				CLASSPREFIX = MBX;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MapBox;
-				TargetAttributes = {
-					DD298D6517CBD5DA00406270 = {
-						TestTargetID = DD298D4417CBD5DA00406270;
-					};
-				};
 			};
 			buildConfigurationList = DD298D4017CBD5DA00406270 /* Build configuration list for PBXProject "Clear Map" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				DD298D4417CBD5DA00406270 /* Clear Map */,
-				DD298D6517CBD5DA00406270 /* Clear MapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD298D6117CBD5DA00406270 /* Images.xcassets in Resources */,
 				DD298D5317CBD5DA00406270 /* InfoPlist.strings in Resources */,
-				DD298D5C17CBD5DA00406270 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD298D6417CBD5DA00406270 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD298D7217CBD5DA00406270 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,45 +167,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD298D6217CBD5DA00406270 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD298D7417CBD5DA00406270 /* Clear_MapTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DD298D6C17CBD5DA00406270 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD298D4417CBD5DA00406270 /* Clear Map */;
-			targetProxy = DD298D6B17CBD5DA00406270 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD298D5117CBD5DA00406270 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DD298D5217CBD5DA00406270 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DD298D5A17CBD5DA00406270 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD298D5B17CBD5DA00406270 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD298D7017CBD5DA00406270 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD298D7117CBD5DA00406270 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -398,46 +277,6 @@
 			};
 			name = Release;
 		};
-		DD298D7B17CBD5DA00406270 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clear Map.app/Clear Map";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Clear Map/Clear Map-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Clear MapTests/Clear MapTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DD298D7C17CBD5DA00406270 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clear Map.app/Clear Map";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Clear Map/Clear Map-Prefix.pch";
-				INFOPLIST_FILE = "Clear MapTests/Clear MapTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,14 +294,6 @@
 			buildConfigurations = (
 				DD298D7817CBD5DA00406270 /* Debug */,
 				DD298D7917CBD5DA00406270 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DD298D7A17CBD5DA00406270 /* Build configuration list for PBXNativeTarget "Clear MapTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD298D7B17CBD5DA00406270 /* Debug */,
-				DD298D7C17CBD5DA00406270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
